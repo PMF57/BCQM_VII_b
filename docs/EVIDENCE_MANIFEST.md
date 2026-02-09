@@ -1,6 +1,8 @@
 # Evidence Manifest — BCQM VII_b (finite‑N knee + clock metastability sweeps)
 
-_Last updated: 6 February 2026_
+_Last updated: 9 February 2026_
+
+The paper PDF and official versioned manuscript are archived on Zenodo (Concept DOI: 10.5281/zenodo.18549145; v1 DOI: 10.5281/zenodo.18549146). This repository contains the code, configs, CSV artefacts, and lab notes supporting the paper.
 
 This manifest indexes the sweep artefacts supporting the Stage‑3 “knee + metastability” result set.
 
