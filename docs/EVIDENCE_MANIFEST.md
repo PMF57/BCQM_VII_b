@@ -4,6 +4,8 @@ _Last updated: 9 February 2026_
 
 The paper PDF and official versioned manuscript are archived on Zenodo (Concept DOI: 10.5281/zenodo.18549145; v1 DOI: 10.5281/zenodo.18549146). This repository contains the code, configs, CSV artefacts, and lab notes supporting the paper.
 
+GitHub release : https://github.com/PMF57/BCQM_VII_b/releases/tag/v1.0.0
+
 This manifest indexes the sweep artefacts supporting the Stage‑3 “knee + metastability” result set.
 
 ## 1) Configs (inputs)
