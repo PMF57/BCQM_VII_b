@@ -72,3 +72,55 @@ python3 bcqm_vii_cloth/analysis/summarise_runs.py \
 ```
 
 Ensure `summarise_runs.py` is the patched version described in `PROVENANCE.md` if you want per‑N pairwise files.
+
+## BCQM_VII_c — Knee contour sweeps (Stage-3)
+
+This section documents the planned (and then executed) **knee contour** campaign: mapping the cloth knee
+N_k(n) defined by **Phi = 0.5** (core fraction crossing) as a function of coherence **n**, and (optionally)
+a companion “lock contour” N_l(n) defined by a chosen threshold on **p_lowQ**.
+
+### Repo folders (canonical)
+- Configs: `configs_stage3_knee_contour/`
+- Outputs (consolidated CSV artefacts): `csv/stage3_knee_contour/`
+- Figures (optional): `figures/stage3_knee_contour/`
+- Run logs: `provenance/RUN_LOG_YYYY-MM-DD_VII_c_knee_contour.md`
+
+### Local working folders (your Desktop)
+You mentioned using:
+- `configs_stage3_knee_counter/` (local Desktop working folder)
+- `csv_s3kc/` (local Desktop working folder)
+
+After each batch run:
+1) copy the YAML configs into the repo folder `configs_stage3_knee_contour/`
+2) copy consolidated CSV outputs into `csv/stage3_knee_contour/`
+3) add/update a run log under `provenance/`
+4) update the checklist below.
+
+### Checklist (fill in as you go)
+**Scaffold commit**
+- [ ] Added repo folders `configs_stage3_knee_contour/` and `csv/stage3_knee_contour/`
+- [ ] Added `docs/stage3_knee_contour_README.md`
+- [ ] Added/updated this section
+
+**Runs executed**
+- [ ] n-values covered: (list)
+- [ ] N bracketing strategy used: (describe)
+- [ ] Seed counts per point: (e.g. 10 for bracket, 20 for refine)
+
+**Artefacts committed (CSV)**
+- [ ] `csv/stage3_knee_contour/*_run_summary.csv`
+- [ ] `csv/stage3_knee_contour/knee_contour_summary.csv` (N_k vs n, uncertainty)
+- [ ] `csv/stage3_knee_contour/lock_contour_summary.csv` (optional)
+- [ ] `csv/stage3_knee_contour/README.md` (optional index)
+
+**Run logs**
+- [ ] `provenance/RUN_LOG_YYYY-MM-DD_VII_c_knee_contour.md` (at least one)
+
+**Figures (optional)**
+- [ ] `figures/stage3_knee_contour/knee_contour.pdf`
+- [ ] `figures/stage3_knee_contour/lock_contour.pdf`
+
+### Notes
+- Do **not** commit raw `outputs_cloth/` directories.
+- Commit only configs, consolidated CSV artefacts, small figures, and run logs.
+- Keep BCQM VII and BCQM_VII_b results locked; VII_c is a new Stage-3 evidence set.
