@@ -79,6 +79,10 @@ This section documents the planned (and then executed) **knee contour** campaign
 N_k(n) defined by **Phi = 0.5** (core fraction crossing) as a function of coherence **n**, and (optionally)
 a companion “lock contour” N_l(n) defined by a chosen threshold on **p_lowQ**.
 
+	•	Zenodo code/archive DOI (v1.0.0): 10.5281/zenodo.18671297
+	•	release tag: vii_c-v1.0
+	•	17/02/2026
+
 Code snapshot : 173670f4107dbb8d02939328c7bd5f976e3bd479 (main)
 
 Run log: RUN_LOG_2026-02-17_VII_c_knee_contour.md (root)
