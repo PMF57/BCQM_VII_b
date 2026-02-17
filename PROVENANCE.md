@@ -1,10 +1,15 @@
 # Provenance — BCQM VII_b (Stage‑3 sweeps / candidate BCQM_IV_b)
 
-_Last updated: 6 February 2026_
+_Last updated: 17 February 2026_
 
 This file records where the code came from, what was changed, and how the sweep artefacts in `csv/` were produced.
 
 GitHub release: https://github.com/PMF57/BCQM_VII_b/releases/tag/v1.0.0
+
+
+## BCQM VII_c code/archive (this repo)
+- Code/archive DOI (v1.0.0): 10.5281/zenodo.18671297
+- GitHub release tag: vii_c-v1.0
 
 
 ## BCQM VII_b paper (this repo)

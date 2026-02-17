@@ -1,26 +1,29 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the BCQM VII_b paper (Zenodo DOI) below."
-title: "BCQM VII_b code and artefacts (finite-N knee and clock metastability sweeps)"
+message: "If you use this repository, please cite the Zenodo code/archive record below. For the companion BCQM VII_b paper, see the additional DOIs listed under identifiers."
+title: "BCQM VII_b / BCQM VII_c code and artefacts (Stage-2 cloth, knee contour, and Stage-3 diagnostics)"
 authors:
   - family-names: "Ferguson"
     given-names: "Peter M."
-version: "0.2.6"
-date-released: "2026-02-09"
-doi: "10.5281/zenodo.18549146"
+version: "vii_c-v1.0.0"
+date-released: "2026-02-17"
+doi: "10.5281/zenodo.18671297"
 
 preferred-citation:
-  type: report
-  title: "Boundary-Condition Quantum Mechanics VII_b: Finite-N knee crossover and clock metastability in the Stage-2 cloth programme"
+  type: software
+  title: "BCQM VII_b / BCQM VII_c code and artefacts"
   authors:
     - family-names: "Ferguson"
       given-names: "Peter M."
   year: 2026
   month: 2
-  day: 9
+  day: 17
   publisher: "Zenodo"
-  doi: "10.5281/zenodo.18549146"
-  url: "https://doi.org/10.5281/zenodo.18549146"
+  doi: "10.5281/zenodo.18671297"
+  url: "https://doi.org/10.5281/zenodo.18671297"
   identifiers:
     - type: doi
+      value: "10.5281/zenodo.18549146"
+      description: "Companion paper: BCQM VII_b v1.0"
+    - type: doi
       value: "10.5281/zenodo.18549145"
-      description: "Concept DOI (all versions)"
+      description: "Companion paper concept DOI (all versions)"
