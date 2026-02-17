@@ -18,7 +18,7 @@ This run log records the exact configuration families executed (bracket + refine
 ## Code provenance (fill in when committing)
 - Repo: BCQM_VII_b
 - Branch: main
-- Commit: <fill in: git rev-parse HEAD>
+- Commit: 173670f4107dbb8d02939328c7bd5f976e3bd479
 - Tag (optional): <fill in>
 
 ## Working folders (Desktop)
